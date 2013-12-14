@@ -1,0 +1,116 @@
+VERSION 5.00
+Begin VB.Form frmThumbnail 
+   Caption         =   "Communicator Thumbnail"
+   ClientHeight    =   4230
+   ClientLeft      =   60
+   ClientTop       =   450
+   ClientWidth     =   5430
+   ScaleHeight     =   4230
+   ScaleWidth      =   5430
+   StartUpPosition =   3  'Windows Default
+End
+Attribute VB_Name = "frmThumbNail"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Explicit
+
+Private hThumbNail As Long
+
+Private Sub Form_Load()
+Me.Show
+InitThumbNail
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+TerminateThumbnail
+End Sub
+
+Private Sub InitThumbNail()
+Dim lErr As Long
+Dim sDesc As String
+
+If modDisplay.RegisterThumbnail(hThumbNail, frmMain.hWnd, Me.hWnd) Then
+    
+    'AddConsoleText "Thumbnail Registered: " & CStr(hThumbNail)
+    SetThumbNailProps
+    
+Else
+    hThumbNail = 0
+    
+    lErr = Err.LastDllError
+    sDesc = Err.Description
+    If lErr = 0 Then lErr = Err.Number
+    
+    AddConsoleText "Error Registering Thumbnail: " & lErr & IIf(LenB(sDesc), " (" & sDesc & ")", vbNullString)
+End If
+
+End Sub
+
+Private Sub SetThumbNailProps()
+Dim S As RECT, D As RECT
+Dim lErr As Long
+Dim sDesc As String
+
+If hThumbNail Then
+    With S
+        .Top = 0
+        .Left = 0
+        .Right = IntoPixelsX(Me.width)
+        .Bottom = IntoPixelsY(Me.height) '- sldrTransparency.Top)
+    End With
+    
+    With D
+        .Top = 0
+        .Left = 0
+        .Right = IntoPixelsX(frmMain.width)
+        .Right = IntoPixelsY(frmMain.height)
+    End With
+    
+    
+    
+    'If modDisplay.SetThumbNailProps(hThumbNail, 255, True, True, S, D) = False Then
+    If modDisplay.SetThumbNailProps(hThumbNail, 255, True, True, S, D, False, False) = False Then
+        
+        lErr = Err.LastDllError
+        sDesc = Err.Description
+        If lErr = 0 Then lErr = Err.Number
+        
+        AddConsoleText "Error Setting Thumbnail Properties: " & lErr & IIf(LenB(sDesc), vbSpace & "(" & sDesc & ")", vbNullString)
+        
+    Else
+        Me.Refresh
+    End If
+End If
+
+End Sub
+
+Private Sub TerminateThumbnail()
+
+If hThumbNail Then
+    modDisplay.UnRegisterThumbnail hThumbNail
+End If
+
+End Sub
+
+'##################################################################
+
+'Private Sub sldrTransparency_Change()
+'SetThumbNailProps
+'End Sub
+'
+'Private Sub sldrTransparency_Scroll()
+'sldrTransparency_Change
+'End Sub
+
+Private Sub Form_Resize()
+
+'With sldrTransparency
+'    .Top = Me.ScaleHeight - .height - 240
+'    .width = Me.ScaleWidth - .Left * 2
+'End With
+
+SetThumbNailProps
+End Sub
+

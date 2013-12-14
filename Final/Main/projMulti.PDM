@@ -1,0 +1,231 @@
+[Root]
+Most Recent Package=Communicator Setup
+
+
+[Package|Dependancy File|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Package
+
+[Package|Dependancy File|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dependancy File|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dependancy File|Files Found]
+
+[Package|Dependancy File|Files Released]
+
+[Package|Dependancy File|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\wininet.dll=
+
+[Package|Dependancy File|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Dependancy File|Files Added]
+
+[Package|Dependancy File|Files Removed]
+
+[Package|Dependancy File|Files In Project]
+C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Communicator.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+
+[Package|Dependancy File|Configure Registry Files]
+Applicable=No
+
+[Package|Dependancy File|Configure Remote Servers]
+Applicable=No
+
+[Package|Dependancy File|Install Locations]
+C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Communicator.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dependancy File|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Communicator.exe=No
+
+[Package|Dependancy File|Distribution]
+Type=single
+Size=
+Title=Communicator
+
+[Package|Dependancy File|DepFile]
+DepCabFile=
+DepCabRun=
+
+[Package|Dependancy File|Package]
+PackageFolder=C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Package
+ProjectFolder=C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Final
+ServerSideCab=
+File1=C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Package\Communicator.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Communicator Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Package
+
+[Package|Communicator Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Communicator Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Communicator Setup|Files Found]
+
+[Package|Communicator Setup|Files Released]
+dwmapi.dll=
+
+[Package|Communicator Setup|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\wininet.dll=
+J:\Windows\System32\dwmapi.dll=
+C:\WINDOWS\system32\msxml6.dll=
+C:\WINDOWS\system32\hnetcfg.dll=
+C:\WINDOWS\system32\wshom.ocx=
+C:\WINDOWS\system32\dx7vb.dll=
+C:\WINDOWS\system32\mshtml.tlb=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\zlib.dll=
+C:\WINDOWS\system32\urlmon.dll=
+C:\WINDOWS\system32\iphlpapi.dll=
+
+[Package|Communicator Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Communicator Setup|Files Added]
+
+[Package|Communicator Setup|Files Removed]
+
+[Package|Communicator Setup|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Communicator.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\iphlpapi.dll=Yes
+C:\WINDOWS\system32\urlmon.dll=Yes
+C:\WINDOWS\system32\zlib.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+C:\WINDOWS\system32\mshtml.tlb=Yes
+C:\WINDOWS\system32\dx7vb.dll=Yes
+C:\WINDOWS\system32\wshom.ocx=Yes
+C:\WINDOWS\system32\hnetcfg.dll=Yes
+C:\WINDOWS\system32\msxml6.dll=Yes
+
+[Package|Communicator Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Communicator Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Communicator Setup|Install Locations]
+C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Communicator.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Communicator.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\iphlpapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\urlmon.dll=$(WinSysPath)
+C:\WINDOWS\system32\zlib.dll=$(WinSysPath)
+J:\Windows\System32\dwmapi.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\mshtml.tlb=$(WinSysPath)
+C:\WINDOWS\system32\dx7vb.dll=$(WinSysPath)
+C:\WINDOWS\system32\wshom.ocx=$(WinSysPath)
+C:\WINDOWS\system32\hnetcfg.dll=$(WinSysPath)
+C:\WINDOWS\system32\msxml6.dll=$(WinSysPath)
+
+[Package|Communicator Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Rob\My Documents\Main Documents\Rob Computing\Programs\winsock\Multi\Communicator.exe=No
+C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Communicator.exe=No
+
+[Package|Communicator Setup|Distribution]
+Type=single
+Size=
+Title=Communicator
+
+[Package|Communicator Setup|Package]
+PackageFolder=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Package
+ProjectFolder=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Final\Main
+ServerSideCab=
+File1=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Package\setup.exe
+File2=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Package\Setup.Lst
+File3=C:\Documents and Settings\Rob\My Documents\Code\Programs VB\winsock\Multi\Package\Communicator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Communicator Setup|IconGroups]
+Group0=Communicator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Communicator Setup|Communicator]
+Icon1=Communicator.exe
+Title1=Communicator
+StartIn1=$(AppPath)
+Key1=Icon1

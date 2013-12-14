@@ -1,0 +1,58 @@
+List of command line commands
+"/command [parameter1|parameter2]"
+
+Visual
+------
+
+/stealth - Start in stealth mode/notepad mode
+           Turn speech off temporarily
+
+/xpbuttons [1|0] - Show XP/Slanted buttons
+
+/cls - Clear the main text when started
+
+/aprilfools [1|0] - Simulate/Force off an April Fools day
+
+
+Menu Options
+------------
+
+/host [1|0] - Turn host mode on or off
+
+/log [1|0] - Enable/Disable conversation logging
+
+/autosave [1|0] - Enable/Disable conversation autosaving
+
+/logall [1|0] - Enable/Disable all logging
+
+/gamemode - Enable game mode (No alerts, etc)
+
+
+Advanced
+--------
+
+/slow - Add to ftp online list
+        Update network list
+        Download server message (if menu option set)
+
+/console - Show console at program start
+
+/startup - Act as if being started at Windows Startup
+
+/debug - Output console to Comm_Debug.txt
+
+/safemode - Don't load stick sound
+            Don't update the network list (at startup)
+            Don't show fancy buttons
+            Try not to use extra dlls
+            Disable FTP
+
+/internet [1|0] - Forces internet communication (IP retrival, FTP) on or off
+
+/skipdll - Skips checking of required DLLs
+
+/subclass [1|0] - Enable or disable subclassing of the main window
+
+/instanceprompt - If another Communicator is running, ask whether to continue loading the current
+
+/forceopen - If another Communicator is running, open anyway

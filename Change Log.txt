@@ -1,0 +1,136 @@
+-----Version 1.40.8-----
+Normal
+    Speech - New: added <rate> and <pitch> tag entry (click the "/" button)    
+           - New: added <HL> tags for the Half Life background guy person voice thing
+           - New: added speech preview shortcut - shift+enter to prehear what you have written
+           - New: added Stop and Test speech menu items to the "/" menu
+           - New: added sorter tags - <p5> = <pitch middle="5"> and the same for volume (v), rate (s) and silence (q)
+           - New: <emphasis> tags can now be <e>
+           - Fixed: Text like "(hello there)^10..." will now expand properly
+    Improved: When pressing the right arrow key, Communicator will auto-complete <b>only</b> if it hasn't already done so
+    Improved: Shake will tell you how long you have to wait until you can shake again
+    Improved: File transfer window can be minimised
+    Improved: Copy menu item added to output textbox
+    Improved: Manual Connect is enabled when listening
+    Improved: Clients don't get spammed with speech when someone who is banned from the server attempt to connect
+    Improved: File transfer is easier to use for clients
+    New: Han Solo hurgh sound for shakes
+
+
+Stick Game
+    Increased shield arc duration/stay time
+    Shields now show an animation when they start charging and when they are depleted
+    Added anti-shield grenade - knocks out all shields within its vicinity
+    Fixed lightsaber angle bug - it must be held vertically to block bullets
+    Major alteration on zombies - more health, but slower
+                                - Drawn differently - arms outstretched, etc
+
+-----Version 1.40.7-----
+Normal
+    New: <emph> tags are added onto italicised words for speech
+    Improved: Activity log is optional (Options > Messaging > Logging > Activity Log)
+    Improved: IRC Commands in general
+    Improved: Port forwarding interface and error reporting
+    Improved: Changed website link (Online > Communicator Website) to the new server
+    Improved: Thumbnail (File > Show Thumbnail Window) aspect ratio is set to the main window when the thumbnail is shown
+    Improved: The option to obtain the local and remote IP addresses is always available (Right click statusbar)
+    Fixed: Messages (Online > Messages) was downloading the file to a non-writable location (Vista, Windows 7), etc. Fixed
+    Fixed: gifs couldn't be set as a display picture by dragging the file onto Communicator
+
+Stick Game
+    New: Shields instead of armour - they recharge after not being shot at for 1.5 seconds.
+    Fixed: Bug where barrels exploding (emitting flames, specifically) would decrease the stick's bullets fired
+
+-----Version 1.40.6-----
+Normal
+    New: /commands - /reconnect and /disconnect (as well as /me, /describe and /agree)
+    New: Activity log (in log folder)
+    New: If there's a "settings.cfg" file in Communicator's directory, that'll be used for settings instead of the default
+    New: Double click a user in the connected list to copy their IP to the clipboard
+    New: Speech will take strings like "hello^2" and transform them to "hello hello"
+    Improved: Chat log settings are applied immediatly
+    Improved: File transfer speech now says whether a file was sent or received
+    Improved: Focus is generally kept in the output textbox
+    Improved: Auto-Retry is remembered between connections
+    Improved: If a file isn't found when trying to open it via File Transfer, the user is told
+    Improved: Changed drawing checkboxes to option buttons
+    Improved: IP is shown in kick dialog
+    Fixed: Chat logging bug - it wasn't logging to where it said it was
+    Fixed: Close Message was being buggy and not showing up sometimes
+    Fixed: While connecting, typing into the output textbox won't cock up the name textbox
+    Fixed: Name textbox being disabled while in private chat
+    Fixed: Online > Who's Online - it should work properly now
+    Fixed: Prevented Communicator from stealing focus on disconnect
+    Fixed: IRC commands being sent as plain/chat text
+    Fixed: Clients are removed from the typing list on disconnect
+
+Stick Game
+    New: Change Uzi to Mac-10 - Mac-10's fire rate is higher
+    New: Spawn invulnerability time has been shortened
+    New: Hold space to slow down the chopper
+    Improved: Beefed the flamethrower
+    Improved: Flames emerge from exploding barrels that can set sticks on fire
+    Improved: Weapon fire rates are closer to real life
+    Improved: Snipers can't move as quickly as normal sticks
+    Improved: Balanced sniper a bit - slower moving, but higher damage with a G3
+    Improved: Chopper bullet and rocket collision detection
+
+
+-----Version 1.40.5-----
+Normal
+    New: Logging path can be set (due to Windows 7 not allowing logs to be written to "\Program Files\Communicator")
+    New: Logging path defaults to "user's documents\Communicator Logs\"
+    New: Logging path can be set in the Options Window
+    Fixed: Windows 7/Vista glass border handling
+
+-----Version 1.40.4-----
+Normal
+    New: Added mini window setting to settings file
+    New: Timestamp for connection closed message
+    New: "whole word" code-replacement for voice replacement - i.e. "sec" goes to "sek", but "second" will not go to "sekond"
+    New: Wait for welcome message of server
+    New: Cancel button on file transfer (for the sender)
+    New: Speech pause tags - On the quick menu - "/"
+    Improved: Information messages for file transfer
+    Improved: Mini window
+    Improved: File transfer - transfers are remembered
+    Improved: Text entry box is always enabled - in case someone disconnects while you're typing an important message
+    Improved: Error handling for file transfer
+    Improved: File Transfer Window Icon represents current file transfer connection state
+    Fixed: If a socket error occurs, disconnect text isn't show, just error text
+    Fixed: Prevented both smiley modes from both being on (from loading a settings file)
+
+-----Version 1.40.3-----
+
+Normal
+    New: Notification for clients waiting for a file transfer
+    New: Options for the manual file transfer (Ctrl+H)
+    New: Startup option for skipping dll check
+    New: Ability to block all IPs except those specified (Ctrl+W)
+    New: Sound recording and sending
+    New: A window that shows recording/sound transfers with the ability to replay them
+    New: Ability to view the progress of a recording transfer and cancel it
+    New: Blocked/Allowed IPs are now saved
+    New: Reload button on Options Window to reload current settings
+    New: FTP Server editor
+    New: Command line help to Help > Help / F1
+    Improved: Private Chat logging - No message are missed out/files overwritten
+    Improved: If a file exists, file transfer will rename the incoming file, so no files are overwritten
+    Improved: Removed tooltip for display picture preview
+    Improved: Altered settings-load on Vista so it checks if it can enable fancy effects, etc
+    Improved: Shifted menus around a bit so they make more sense - display menus
+    Improved: Smiley menu
+    Improved: Host resolvage
+    Improved: FTP primary server changed to one that works
+    Improved: Client list will show EVERY connection to the server
+    Fixed: Port changes are applied immediatly (Specifically for Display Pictures)
+    Fixed: "Manual Connect" label on the connect button changed to "Manual" so Vista/Windows 7 icons fit
+    Fixed: Spelling mistake - File Transfer, "Conneted"
+    Fixed: Corrected spelling mistake - "dissapear"
+
+Stick Game
+    New: Bot chat is optional
+    New: Zombies - high health, but meleé only (Weakness to mines)
+    Improved: Toasty picture's y-position, so it isn't clipped off the screen
+    Improved: Grenade 'reload' slightly
+    Improved: Lightsaber isn't knocked off by the stick moving

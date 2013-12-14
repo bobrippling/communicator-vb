@@ -1,0 +1,33 @@
+UNCOMMENT AMBIENTCHANGED (XPBUTTON) ON COMPILE
+-----------      Main      -----------
+
+CHANGE CLIENTS() ARRAY HANDLING + update connected list
+
+//display picture - duplicate bug
+queue for voice recordings sendage
+keep focus in txtOut when disconnected
+file transfer - auto send on connect option
+when server "connected to server, receiving recording" is show. wat
+allow quick second message (i.e. cmdSend_Click) if only one has been sent (i.e. burst of two, but a third is beep'd)
+messages starting with / have a different font... wat
+add user's name to user list (i.e. with status)
+allow "/agree,.*$"
+drag + drop sounds to be played
+
+-----------   Stick Game   -----------
+ctf?
+//Bots pull out a pistol if empty?
+pits?
+grenade counter or something, so if you go into timezone, you don't have to reload it
+//synchronise fires
+
+floor clipping - fix (half done)
+teleporters
+
+
+############ Check if fixed #############
+
+-see what the dp copy bug was all about
+-Glass Border - test in IDE + stop ballsing it up
+-voice file transfer - If server send transfer fails, it gets stuck
+-Check Manual Connect's button labels are shown in 7

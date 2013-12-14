@@ -1,0 +1,12 @@
+Line 16: Class projMulti.ScrollListBox of control lstDates was not a loaded control class.
+Line 140: Class projMulti.ScrollListBox of control lstNames was not a loaded control class.
+Line 149: Class projMulti.ScrollListBox of control lstIPs was not a loaded control class.
+Line 158: Class projMulti.ScrollListBox of control lstOnline was not a loaded control class.
+Line 22: The property name _ExtentX in lstDates is invalid.
+Line 23: The property name _ExtentY in lstDates is invalid.
+Line 146: The property name _ExtentX in lstNames is invalid.
+Line 147: The property name _ExtentY in lstNames is invalid.
+Line 155: The property name _ExtentX in lstIPs is invalid.
+Line 156: The property name _ExtentY in lstIPs is invalid.
+Line 164: The property name _ExtentX in lstOnline is invalid.
+Line 165: The property name _ExtentY in lstOnline is invalid.
